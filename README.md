@@ -1,26 +1,20 @@
-# Nedb Typescript Definitions
+# NeDB Types
+TypeScript definitions for [NeDB](https://github.com/louischatriot/nedb).
 
----
-### Install
+
+## Install
 ```sh
 npm i -D nadhirxz/nedb-types
 ```
 
-
-
----
-
-### Usage
-Types will be installed to @types/nedb so that's all you need to do
+## Usage
 ```typescript
-import Nedb from "nedb"
-const collection = new Nedb<MyAwesomeTypeHere>();
+import NeDB from 'nedb';
+const collection = new NeDB<T>();
 ```
-Now you have intellisense and all that good stuff
+Types will be installed to `@types/nedb` so that's all you need. Now you have intellisense and all the good stuff.
 
----
-
-### Screenshots
+## Screenshots
 
 ![Nedb Typescript Definitions](screenshots/example.png)
 
