@@ -189,6 +189,7 @@ export type DatastoreOptions = {
 export type SerializationOptions = {
     afterSerialization: (src: string) => string
     beforeSerialization: (src: string) => string
+    beforeDeserialization: (src: string) => string
 } | {}
 
 
